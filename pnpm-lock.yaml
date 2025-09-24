@@ -120,8 +120,8 @@ importers:
         specifier: 0.59.0
         version: 0.59.0(monaco-editor@0.53.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
       react-router-dom:
-        specifier: 7.9.1
-        version: 7.9.1(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        specifier: 7.9.2
+        version: 7.9.2(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
       react-virtuoso:
         specifier: ^4.14.0
         version: 4.14.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
@@ -161,10 +161,10 @@ importers:
         version: 19.1.9(@types/react@19.1.13)
       '@vitejs/plugin-legacy':
         specifier: ^7.2.1
-        version: 7.2.1(terser@5.44.0)(vite@7.1.7(jiti@2.6.0)(sass@1.93.1)(terser@5.44.0)(yaml@2.7.1))
+        version: 7.2.1(terser@5.44.0)(vite@7.1.7(jiti@2.6.0)(sass@1.93.2)(terser@5.44.0)(yaml@2.7.1))
       '@vitejs/plugin-react':
         specifier: 5.0.3
-        version: 5.0.3(vite@7.1.7(jiti@2.6.0)(sass@1.93.1)(terser@5.44.0)(yaml@2.7.1))
+        version: 5.0.3(vite@7.1.7(jiti@2.6.0)(sass@1.93.2)(terser@5.44.0)(yaml@2.7.1))
       adm-zip:
         specifier: ^0.5.16
         version: 0.5.16
@@ -223,11 +223,11 @@ importers:
         specifier: ^3.6.2
         version: 3.6.2
       sass:
-        specifier: ^1.93.1
-        version: 1.93.1
+        specifier: ^1.93.2
+        version: 1.93.2
       tar:
-        specifier: ^7.4.4
-        version: 7.4.4
+        specifier: ^7.5.1
+        version: 7.5.1
       terser:
         specifier: ^5.44.0
         version: 5.44.0
@@ -239,13 +239,13 @@ importers:
         version: 8.44.1(eslint@9.36.0(jiti@2.6.0))(typescript@5.9.2)
       vite:
         specifier: ^7.1.7
-        version: 7.1.7(jiti@2.6.0)(sass@1.93.1)(terser@5.44.0)(yaml@2.7.1)
+        version: 7.1.7(jiti@2.6.0)(sass@1.93.2)(terser@5.44.0)(yaml@2.7.1)
       vite-plugin-monaco-editor:
         specifier: ^1.1.0
         version: 1.1.0(monaco-editor@0.53.0)
       vite-plugin-svgr:
         specifier: ^4.5.0
-        version: 4.5.0(rollup@4.46.2)(typescript@5.9.2)(vite@7.1.7(jiti@2.6.0)(sass@1.93.1)(terser@5.44.0)(yaml@2.7.1))
+        version: 4.5.0(rollup@4.46.2)(typescript@5.9.2)(vite@7.1.7(jiti@2.6.0)(sass@1.93.2)(terser@5.44.0)(yaml@2.7.1))
 
 packages:
 
@@ -3498,15 +3498,15 @@ packages:
     resolution: {integrity: sha512-z6F7K9bV85EfseRCp2bzrpyQ0Gkw1uLoCel9XBVWPg/TjRj94SkJzUTGfOa4bs7iJvBWtQG0Wq7wnI0syw3EBQ==}
     engines: {node: '>=0.10.0'}
 
-  react-router-dom@7.9.1:
-    resolution: {integrity: sha512-U9WBQssBE9B1vmRjo9qTM7YRzfZ3lUxESIZnsf4VjR/lXYz9MHjvOxHzr/aUm4efpktbVOrF09rL/y4VHa8RMw==}
+  react-router-dom@7.9.2:
+    resolution: {integrity: sha512-pagqpVJnjZOfb+vIM23eTp7Sp/AAJjOgaowhP1f1TWOdk5/W8Uk8d/M/0wfleqx7SgjitjNPPsKeCZE1hTSp3w==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
 
-  react-router@7.9.1:
-    resolution: {integrity: sha512-pfAByjcTpX55mqSDGwGnY9vDCpxqBLASg0BMNAuMmpSGESo/TaOUG6BllhAtAkCGx8Rnohik/XtaqiYUJtgW2g==}
+  react-router@7.9.2:
+    resolution: {integrity: sha512-i2TPp4dgaqrOqiRGLZmqh2WXmbdFknUyiCRmSKs0hf6fWXkTKg5h56b+9F22NbGRAMxjYfqQnpi63egzD2SuZA==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       react: '>=18'
@@ -3612,8 +3612,8 @@ packages:
     resolution: {integrity: sha512-x/+Cz4YrimQxQccJf5mKEbIa1NzeCRNI5Ecl/ekmlYaampdNLPalVyIcCZNNH3MvmqBugV5TMYZXv0ljslUlaw==}
     engines: {node: '>= 0.4'}
 
-  sass@1.93.1:
-    resolution: {integrity: sha512-wLAeLB7IksO2u+cCfhHqcy7/2ZUMPp/X2oV6+LjmweTqgjhOKrkaE/Q1wljxtco5EcOcupZ4c981X0gpk5Tiag==}
+  sass@1.93.2:
+    resolution: {integrity: sha512-t+YPtOQHpGW1QWsh1CHQ5cPIr9lbbGZLZnbihP/D/qZj/yuV68m8qarcV17nvkOX81BCrvzAlq2klCQFZghyTg==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -3782,8 +3782,8 @@ packages:
   systemjs@6.15.1:
     resolution: {integrity: sha512-Nk8c4lXvMB98MtbmjX7JwJRgJOL8fluecYCfCeYBznwmpOs8Bf15hLM6z4z71EDAhQVrQrI+wt1aLWSXZq+hXA==}
 
-  tar@7.4.4:
-    resolution: {integrity: sha512-O1z7ajPkjTgEgmTGz0v9X4eqeEXTDREPTO77pVC1Nbs86feBU1Zhdg+edzavPmYW1olxkwsqA2v4uOw6E8LeDg==}
+  tar@7.5.1:
+    resolution: {integrity: sha512-nlGpxf+hv0v7GkWBK2V9spgactGOp0qvfWRxUMjqHyzrt3SgwE48DIv/FhqPHJYLHpgW1opq3nERbz5Anq7n1g==}
     engines: {node: '>=18'}
 
   terser@5.44.0:
@@ -5912,7 +5912,7 @@ snapshots:
   '@unrs/resolver-binding-win32-x64-msvc@1.11.1':
     optional: true
 
-  '@vitejs/plugin-legacy@7.2.1(terser@5.44.0)(vite@7.1.7(jiti@2.6.0)(sass@1.93.1)(terser@5.44.0)(yaml@2.7.1))':
+  '@vitejs/plugin-legacy@7.2.1(terser@5.44.0)(vite@7.1.7(jiti@2.6.0)(sass@1.93.2)(terser@5.44.0)(yaml@2.7.1))':
     dependencies:
       '@babel/core': 7.28.4
       '@babel/plugin-transform-dynamic-import': 7.27.1(@babel/core@7.28.4)
@@ -5927,11 +5927,11 @@ snapshots:
       regenerator-runtime: 0.14.1
       systemjs: 6.15.1
       terser: 5.44.0
-      vite: 7.1.7(jiti@2.6.0)(sass@1.93.1)(terser@5.44.0)(yaml@2.7.1)
+      vite: 7.1.7(jiti@2.6.0)(sass@1.93.2)(terser@5.44.0)(yaml@2.7.1)
     transitivePeerDependencies:
       - supports-color
 
-  '@vitejs/plugin-react@5.0.3(vite@7.1.7(jiti@2.6.0)(sass@1.93.1)(terser@5.44.0)(yaml@2.7.1))':
+  '@vitejs/plugin-react@5.0.3(vite@7.1.7(jiti@2.6.0)(sass@1.93.2)(terser@5.44.0)(yaml@2.7.1))':
     dependencies:
       '@babel/core': 7.28.4
       '@babel/plugin-transform-react-jsx-self': 7.27.1(@babel/core@7.28.4)
@@ -5939,7 +5939,7 @@ snapshots:
       '@rolldown/pluginutils': 1.0.0-beta.35
       '@types/babel__core': 7.20.5
       react-refresh: 0.17.0
-      vite: 7.1.7(jiti@2.6.0)(sass@1.93.1)(terser@5.44.0)(yaml@2.7.1)
+      vite: 7.1.7(jiti@2.6.0)(sass@1.93.2)(terser@5.44.0)(yaml@2.7.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -7875,13 +7875,13 @@ snapshots:
 
   react-refresh@0.17.0: {}
 
-  react-router-dom@7.9.1(react-dom@19.1.1(react@19.1.1))(react@19.1.1):
+  react-router-dom@7.9.2(react-dom@19.1.1(react@19.1.1))(react@19.1.1):
     dependencies:
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
-      react-router: 7.9.1(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+      react-router: 7.9.2(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
 
-  react-router@7.9.1(react-dom@19.1.1(react@19.1.1))(react@19.1.1):
+  react-router@7.9.2(react-dom@19.1.1(react@19.1.1))(react@19.1.1):
     dependencies:
       cookie: 1.0.2
       react: 19.1.1
@@ -8037,7 +8037,7 @@ snapshots:
       is-regex: 1.2.1
     optional: true
 
-  sass@1.93.1:
+  sass@1.93.2:
     dependencies:
       chokidar: 4.0.3
       immutable: 5.1.2
@@ -8236,7 +8236,7 @@ snapshots:
 
   systemjs@6.15.1: {}
 
-  tar@7.4.4:
+  tar@7.5.1:
     dependencies:
       '@isaacs/fs-minipass': 4.0.1
       chownr: 3.0.0
@@ -8460,18 +8460,18 @@ snapshots:
     dependencies:
       monaco-editor: 0.53.0
 
-  vite-plugin-svgr@4.5.0(rollup@4.46.2)(typescript@5.9.2)(vite@7.1.7(jiti@2.6.0)(sass@1.93.1)(terser@5.44.0)(yaml@2.7.1)):
+  vite-plugin-svgr@4.5.0(rollup@4.46.2)(typescript@5.9.2)(vite@7.1.7(jiti@2.6.0)(sass@1.93.2)(terser@5.44.0)(yaml@2.7.1)):
     dependencies:
       '@rollup/pluginutils': 5.2.0(rollup@4.46.2)
       '@svgr/core': 8.1.0(typescript@5.9.2)
       '@svgr/plugin-jsx': 8.1.0(@svgr/core@8.1.0(typescript@5.9.2))
-      vite: 7.1.7(jiti@2.6.0)(sass@1.93.1)(terser@5.44.0)(yaml@2.7.1)
+      vite: 7.1.7(jiti@2.6.0)(sass@1.93.2)(terser@5.44.0)(yaml@2.7.1)
     transitivePeerDependencies:
       - rollup
       - supports-color
       - typescript
 
-  vite@7.1.7(jiti@2.6.0)(sass@1.93.1)(terser@5.44.0)(yaml@2.7.1):
+  vite@7.1.7(jiti@2.6.0)(sass@1.93.2)(terser@5.44.0)(yaml@2.7.1):
     dependencies:
       esbuild: 0.25.4
       fdir: 6.5.0(picomatch@4.0.3)
@@ -8482,7 +8482,7 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
       jiti: 2.6.0
-      sass: 1.93.1
+      sass: 1.93.2
       terser: 5.44.0
       yaml: 2.7.1
 
